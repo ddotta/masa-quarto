@@ -28,25 +28,12 @@ editor:
 
 # Titre de premier niveau {.backgroundTitre}
 
-## Comment utiliser ce template ?
-
-Vous pouvez utiliser ce template depuis (au choix) :  
-
-1. Votre poste en local  
-    -> Dans ce cas, assurez vous d'avoir au minimum la version `v2022.07` de RStudio qui intègre Quarto.
-
-2. Cerise  
-    -> Pour l'instant, il faut attendre l'arrivée de Cerise v3 pour compiler des documents Quarto.
-    
-3. Le SSP Cloud  
-    -> Vous pouvez utiliser au choix un service RStudio ou VS Code qui intègre déjà par défaut Quarto.
-    
 
 ## Comment installer ce template ?
 
-Il existe plusieurs façons. La plus simple consiste à clôner ce dépôt gitlab sur votre machine avec l'instruction :  
+Il existe plusieurs façons. La plus simple à utiliser cette instruction dans le terminal :   
 
- ``` bash
- git clone https://forge.agriculture.rie.gouv.fr/gitlab/ssp/bmis/charte-graphique/masa-quarto.git
- ```
+``` bash
+quarto render mondocument.qmd
+```
  
