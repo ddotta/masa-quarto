@@ -1,0 +1,54 @@
+project:
+  title: "Présentation quarto-Masa"
+  render:
+    - "template.qmd"
+    
+format:
+  masa-default-revealjs: default
+
+
+header-includes: |
+  <link rel="icon" type="image/png" sizes="32x32" href="img/logos/png/logoMASAicone.ico">
+  
+embed-resources: true
+df-print: paged
+lang: "fr"
+
+slide-number: c/t
+progress: true
+controls-layout: bottom-right
+background-transition: fade
+navigation-mode: vertical
+history: true
+transition-speed: slow
+number-sections: true
+number-depth: 2
+
+link-external-newwindow: true
+# link-external-icon: true
+
+code-fold: true
+code-summary: "Code"
+code-copy: true
+highlight-style: atom-one
+
+menu: {
+  side: 'left',
+  width: 'wide',
+  markers: true,
+  transitions: true
+}
+  
+width: 1920
+height: 1080
+
+theme: css/Masa.scss
+css: [css/default.css, css/stylePerso.css]
+
+revealjs-plugins:
+  - pointer
+  - confetti
+  - verticator
+filters:
+  - roughnotation
+  - reveal-header

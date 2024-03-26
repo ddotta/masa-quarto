@@ -1,0 +1,52 @@
+---
+title: "Titre de la présentation"
+subtitle: "Sous-titre de la présentation"
+date: today
+date-format: "DD/MM/YYYY"
+author: "SSP/DEMESIS/BQIS/PAOS"
+description: |
+  Décrire ici le contenu de votre présentation
+
+slide-tone: false # for blind readers
+chalkboard: false # press the B key to toggle chalkboard
+transition: slide
+fig-cap-location: bottom
+
+toc: true
+toc-title: Sommaire
+toc-depth: 1
+toc-float: true
+
+# multiplex: true
+execute:
+  echo: false
+  warning: false
+  cache: false
+editor:
+  render-on-save: true
+---
+
+# Titre de premier niveau {.backgroundTitre}
+
+## Comment utiliser ce template ?
+
+Vous pouvez utiliser ce template depuis (au choix) :  
+
+1. Votre poste en local  
+    -> Dans ce cas, assurez vous d'avoir au minimum la version `v2022.07` de RStudio qui intègre Quarto.
+
+2. Cerise  
+    -> Pour l'instant, il faut attendre l'arrivée de Cerise v3 pour compiler des documents Quarto.
+    
+3. Le SSP Cloud  
+    -> Vous pouvez utiliser au choix un service RStudio ou VS Code qui intègre déjà par défaut Quarto.
+    
+
+## Comment installer ce template ?
+
+Il existe plusieurs façons. La plus simple consiste à clôner ce dépôt gitlab sur votre machine avec l'instruction :  
+
+ ``` bash
+ git clone https://forge.agriculture.rie.gouv.fr/gitlab/ssp/bmis/charte-graphique/masa-quarto.git
+ ```
+ 

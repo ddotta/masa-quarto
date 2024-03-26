@@ -1,0 +1,23 @@
+/.quarto/
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Les repertoires suivants
+_output/
+template_files/
+
+# Les fichiers suivants
+*.html
+*.tex
+*.pdf
+*.log
+*.sty
+*.docx
+*.odt
+PageStandard_Masa.svg
+!img/com_interne/PageStandard_Masa.svg
+*_files
+/.quarto/
+/.luarc.json
