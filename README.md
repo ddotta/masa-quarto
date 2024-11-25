@@ -1,6 +1,6 @@
 # masa-quarto
 
-Une extension [Quarto](https://quarto.org) qui intègre la charte graphique du [Masa](https://agriculture.gouv.fr/) pour réaliser des diaporamas revealjs.
+Une extension [Quarto](https://quarto.org) qui intègre la charte graphique du [Masaf](https://agriculture.gouv.fr/) pour réaliser des diaporamas revealjs.
    
 
 ## Installation
