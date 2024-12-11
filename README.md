@@ -13,7 +13,7 @@ quarto use template ddotta/masa-quarto
  
 ### Clône
 
-- Vous pouvez clôner ce dépôt github sur votre machine avec l'instruction :  
+- Vous pouvez clôner ce dépôt github sur votre PC avec l'instruction :  
 
  ``` bash
  git clone https://github.com/ddotta/masa-quarto.git
